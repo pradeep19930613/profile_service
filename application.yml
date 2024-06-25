@@ -1,0 +1,12 @@
+server:
+  port: 8195
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/krish/spring-cloud-config5
+          search-paths:
+           - '*service'
+
+
